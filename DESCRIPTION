@@ -1,0 +1,33 @@
+Package: fitbitr
+Type: Package
+Version: 0.1
+Authors@R: c(
+  person("Nagi", "Teramo", , "teramonagi@gmail.com", c("aut", "cre")),
+  person("Shinichi", "Takayanagi", , "shinichi.takayanagi@gmail.com", "aut"))
+Title: Provides Access to Fitbit API
+Description: An implementation of Fitbit API.
+License: MIT + file LICENSE
+Imports:
+    stringr,
+    lubridate,
+    dplyr,
+    tidyr,
+    purrr,
+    rlang,
+    httr,
+    jsonlite,
+    httpuv,
+    RCurl
+Suggests:
+    testthat
+RoxygenNote: 6.1.1
+Collate: 
+    'common.R'
+    'fitbitr.R'
+    'activity.R'
+    'body_weight.R'
+    'device.R'
+    'heart-rate.R'
+    'sleep.R'
+    'token.R'
+    'user.R'
